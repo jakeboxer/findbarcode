@@ -9,7 +9,7 @@ int main(int argc, char **argv)
 	unsigned char *data = stbi_load(FILENAME, &width, &height, &bytes_per_pixel, STBI_default);
 
 	if (data) {
-	    // Run through every pixel and print its greyscale value.
+		// Run through every pixel and print its greyscale value.
 		for (int row = 0; row < height; row++) {
 			int row_offset = row * width;
 

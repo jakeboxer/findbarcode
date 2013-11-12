@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 
 			for (int col = 0; col < width; col++) {
 				char grey = data[row_offset + col];
-				printf("row %d, col %d: %d\n", row, col, grey);
+				printf("row %d, col %d: %u\n", row, col, grey);
 			}
 		}
 

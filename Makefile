@@ -1,2 +1,2 @@
 all:
-	gcc findbarcode.c -o findbarcode
+	gcc findbarcode.c -o findbarcode.out
